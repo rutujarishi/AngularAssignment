@@ -1,0 +1,76 @@
+* BASIC STYLES *
+body {
+  margin: auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* GOOGLE AREA */
+.google #google_logo {
+
+margin-top: 0%;
+  text-align: center;
+  display: block;
+
+  clear: both;
+
+}
+
+
+
+form {
+
+  width: 80%;
+  text-align: center;
+
+  margin-left: 10%;;
+}
+
+buttons {
+
+
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen  {
+
+  .google{
+  }
+
+
+  form {
+
+
+  }
+
+
+
+  button{
+
+
+    color: #4887ef;
+    text-align: center;
+    text-decoration: none;
+    position: center;
+    color: #4887ef;
+    margin-bottom: 1500%;
+margin-left: 48%;
+
+  }
+
+
+}
+@media screen {
+
+
+
+  #google_logo {
+
+  }
+
+
+}

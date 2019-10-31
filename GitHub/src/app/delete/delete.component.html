@@ -1,0 +1,7 @@
+<header><h1>Delete Repository</h1></header>
+<br>
+<form>
+  <input [(ngModel)]="reponame" type="text" placeholder="Repo Name" [ngModelOptions]="{standalone: true}">
+</form>
+<br>
+<button (click)="delete()" >Delete</button>

@@ -1,0 +1,31 @@
+body{
+  /*background:#4887ef;*/
+}
+header{
+  text-align: center;
+}
+form {
+
+
+  color: blue;
+  border: none;
+  border-radius: 4px;
+  /*margin-right: 50%;*/
+  margin-left: 35%;
+  margin-top: 0;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+button{
+
+
+  color: #4887ef;
+  text-align: center;
+  text-decoration: none;
+  position: center;
+  color: #4887ef;
+  margin-bottom: 1500%;
+  margin-left: 48%;
+
+}

@@ -1,0 +1,22 @@
+<!--<div *ngFor = "let a of AllRepos">{{a.id}} || {{a.name}} || {{a.created_at}}</div>-->
+<body>
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+      <tr>
+
+        <th scope="col">Name</th>
+        <th scope="col">CreatedAt</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let user of AllRepos">
+        <td>{{ user.name }}</td>
+        <td>{{user.created_at}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>

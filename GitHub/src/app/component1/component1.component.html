@@ -1,0 +1,14 @@
+<body>
+<header>
+  <h1>Create New Repository</h1></header>
+
+<form>
+  <input [(ngModel)]="repoName" type="text" placeholder="Repository name" [ngModelOptions]="{standalone: true}">
+  <br><br>
+  <input [(ngModel)]="repoDesc" type="text" placeholder="Repository Description" [ngModelOptions]="{standalone: true}">
+</form>
+<br>
+<button (click)="createRepo()" >Create</button>
+</body>
+
+
